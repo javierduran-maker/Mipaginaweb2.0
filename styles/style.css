@@ -1,0 +1,360 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* =========================
+   CUERPO
+========================= */
+
+body {
+    background: rgb(37, 33, 9);
+    color: rgb(252, 251, 251);
+}
+
+
+/* =========================
+   CONTENEDOR PRINCIPAL
+========================= */
+
+#container_main {
+    width: 90%;
+    margin: auto;
+}
+
+
+/* =========================
+   ESPACIADO DE SECCIONES
+========================= */
+
+header,
+section,
+footer {
+    margin: 20px 0;
+}
+
+
+/* =========================
+   BOTÓN 1 - VERDE
+========================= */
+
+.btn1 {
+    padding: 8px 15px;
+    background: transparent;
+    color: #10db62;
+    border: 1px solid #10db62;
+    box-shadow: 0 0 10px #10db62;
+}
+
+
+/* =========================
+   BOTÓN 2 - AZUL
+========================= */
+
+.btn2 {
+    padding: 8px 15px;
+    background: transparent;
+    color: #0d85e0;
+    border: 1px solid #0d85e0;
+    box-shadow: 0 0 10px #0d85e0;
+}
+
+
+/* =========================
+   BOTÓN 3 - VERDE
+========================= */
+
+.btn3 {
+    padding: 8px 15px;
+    background: transparent;
+    color: #10db62;
+    border: 1px solid #10db62;
+    box-shadow: 0 0 10px #10db62;
+}
+
+
+/* =========================
+   BOTÓN 4 - AZUL
+========================= */
+
+.btn4 {
+    padding: 8px 15px;
+    background: transparent;
+    color: #0d85e0;
+    border: 1px solid #0d85e0;
+    box-shadow: 0 0 10px #0d85e0;
+}
+
+
+/* =========================
+   BOTÓN 5 - VERDE
+========================= */
+
+.btn5 {
+    padding: 8px 15px;
+    background: transparent;
+    color: #10db62;
+    border: 1px solid #10db62;
+    box-shadow: 0 0 10px #10db62;
+}
+
+
+/* =========================
+   BOTÓN 10 - AZUL
+========================= */
+
+.btn10 {
+    padding: 8px 15px;
+    background: transparent;
+    color: #0d85e0;
+    border: 1px solid #0d85e0;
+    box-shadow: 0 0 10px #0d85e0;
+}
+
+
+/* =========================
+   VISIÓN Y MISIÓN
+========================= */
+
+.nosotros,
+.productos {
+    display: block;
+}
+
+
+.vision {
+    border: 1px solid #b6db10;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+
+.mision {
+    border: 1px solid #2105f1;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+
+/* =========================
+   IMÁGENES DE PRODUCTOS
+========================= */
+
+.img-producto {
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* =========================
+   CONTENEDORES DE PRODUCTOS
+========================= */
+
+.producto,
+.producto2,
+.producto3,
+.producto4 {
+    min-height: 380px;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+}
+/* =========================
+   ETIQUETAS CAP.ZONE_SV
+========================= */
+
+.empresa{ display: block;
+    margin-bottom: 60px;
+    font-weight: bold;
+    text-shadow: 0 0 8px currentColor;}
+.empresa2{
+     display: block;
+    margin-bottom: -10px;
+    font-weight: bold;
+    text-shadow: 0 0 8px currentColor;
+}
+.empresa3{ display: block;
+    margin-bottom: -10px;
+    font-weight: bold;
+    text-shadow: 0 0 8px currentColor;}
+.empresa4{ display: block;
+    margin-bottom: -10px;
+    font-weight: bold;
+    text-shadow: 0 0 8px currentColor;}
+.empresa5 {
+    display: block;
+    margin-bottom: -10px;
+    font-weight: bold;
+    text-shadow: 0 0 8px currentColor;
+}
+
+
+/* =========================
+   PRODUCTO 1 - VERDE
+========================= */
+
+.producto {
+    border: 1px solid #10db62;
+}
+
+
+/* =========================
+   PRODUCTO 2 - AZUL
+========================= */
+
+.producto2 {
+    border: 1px solid #0d85e0;
+}
+
+
+/* =========================
+   PRODUCTO 3 - VERDE
+========================= */
+
+.producto3 {
+    border: 1px solid #10db62;
+}
+
+
+/* =========================
+   PRODUCTO 4 - AZUL
+========================= */
+
+.producto4 {
+    border: 1px solid #0d85e0;
+}
+
+
+/* =========================
+   PORTADA
+========================= */
+
+.hero {
+    height: auto;
+    text-align: center;
+    padding: 30px;
+    background: #0B1020;
+}
+
+/* =========================
+   COLORES DE LAS ETIQUETAS
+========================= */
+
+.empresa {
+    color: #10db62;
+}
+
+
+.empresa2 {
+    color: #0d85e0;
+}
+
+
+.empresa3 {
+    color: #10db62;
+}
+
+
+.empresa4 {
+    color: #0d85e0;
+}
+
+
+.empresa5 {
+    color: #10db62;
+}
+
+
+/* =========================
+   EFECTO DE LAS ETIQUETAS
+========================= */
+
+.empresa,
+.empresa2,
+.empresa3,
+.empresa4,
+.empresa5 {
+    text-shadow: 0 0 8px currentColor;
+}
+
+.productos {
+    width: 100%;
+}
+
+
+/* =========================
+   TEXTO DE PRODUCTOS
+========================= */
+
+.producto h4,
+.producto2 h4,
+.producto3 h4,
+.producto4 h4 {
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+
+.producto p,
+.producto2 p,
+.producto3 p,
+.producto4 p {
+    margin-bottom: 15px;
+}
+
+
+/* =========================
+   INFORMACIÓN DE CATEGORÍA
+========================= */
+
+.categoria-info {
+    padding: 20px;
+}
+
+
+.categoria-info h2 {
+    margin-bottom: 15px;
+}
+
+
+.categoria-info p {
+    line-height: 1.6;
+}
+
+
+
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+
+    #container_main {
+        width: 95%;
+    }
+
+    .img-producto {
+        width: 160px;
+        height: 160px;
+    }
+
+    .producto,
+    .producto2,
+    .producto3,
+    .producto4 {
+        min-height: 350px;
+    }
+
+    .hero {
+        padding: 20px;
+    }
+
+}
